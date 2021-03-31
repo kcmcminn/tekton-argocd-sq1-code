@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/nodejs-12
+FROM centos/nodejs-12-centos7
 
 CMD [ "npm", "start" ]
 
